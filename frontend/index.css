@@ -1,0 +1,20 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#taskList li label {
+    flex: 1;
+}
+
+.uk-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Additional styles for better task visualization */

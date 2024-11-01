@@ -1,0 +1,9 @@
+service : {
+  addTask: (text) -> ();
+  deleteTask: (nat) -> ();
+  getTasks: () -> (vec record {
+                         text;
+                         bool;
+                       });
+  updateTaskStatus: (nat, bool) -> ();
+}
